@@ -36,7 +36,7 @@ export default function App() {
     return () => { window.removeEventListener('popstate', navigate); document.removeEventListener('click', click) }
   }, [])
 
-  if (productPaths.includes(path)) return <ProductDetail />
+  if (productPaths.includes(path)) return <ProductDetail key={path} />
   if (path === '/cart') return <CartPage />
   if (path === '/checkout') return <CheckoutPage />
   if (path === '/about') return <AboutPage />

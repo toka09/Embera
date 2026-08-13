@@ -24,6 +24,6 @@ export function AboutPage() {
     <section className="about-classic-note"><motion.div initial={reveal} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: .45 }}><span>OUR PROMISE</span><blockquote>“We make each candle as if it will become part of someone’s favorite room.”</blockquote><p>Small batches · Coconut-soy wax · Lead-free cotton wicks · Reusable vessels</p></motion.div></section>
 
     <section className="about-classic-cta"><div><p>THE COLLECTION</p><h2>Four candles.<br /><i>Four moments.</i></h2></div><a href="/#collection">Discover Embera <span>→</span></a></section>
-    <footer className="commerce-footer"><span>POURED IN CAIRO</span><p>Objects for rooms that remember.</p><span>© 2026 EMBERA</span></footer>
+    <footer className="commerce-footer"><span>POURED IN CAIRO</span><p>Objects for rooms that remember.</p><span>© 2026 TOQA ELQERSH</span></footer>
   </main>
 }                                    

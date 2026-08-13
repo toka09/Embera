@@ -25,6 +25,6 @@ export function CartPage() {
       </div>
       <aside className="cart-summary"><p>ORDER SUMMARY</p><div><span>Subtotal</span><strong>${subtotal}</strong></div><div><span>Delivery</span><em>Complimentary</em></div><div className="cart-total"><span>Total</span><strong>${subtotal}</strong></div><small>Taxes and duties calculated at checkout.</small><a href="/checkout">Continue to checkout <span>→</span></a><a className="continue-shopping" href="/#collection">Continue composing</a></aside>
     </section>}
-    <footer className="commerce-footer"><span>POURED IN CAIRO</span><p>Objects for rooms that remember.</p><span>© 2026 EMBERA</span></footer>
+    <footer className="commerce-footer"><span>POURED IN CAIRO</span><p>Objects for rooms that remember.</p><span>© 2026 TOQA ELQERSH</span></footer>
   </main>
 }

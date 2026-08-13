@@ -44,7 +44,7 @@ export function ClosingSection() {
           <a href="/about">About</a>
           <a href="/contact">Contact</a>
         </nav>
-        <p className="home-footer-copy">© 2026 Embera</p>
+        <p className="home-footer-copy">© 2026 Toqa ElQersh. All rights reserved.</p>
       </footer>
     </section>
   )

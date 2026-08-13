@@ -81,6 +81,6 @@ export function ProductDetail() {
     <section className="product-ritual"><div className="product-ritual-image"><img src={`/assets/detail-${product.slug}.png`} alt={`${product.name} candle with its fragrance materials`} /></div><motion.div className="product-ritual-copy" initial={reduceMotion ? false : { opacity: 0, y: 28 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.35 }}><p className="product-kicker">The first burn</p><h2>Let the wax reach<br /><i>every edge.</i></h2><p>On the first light, allow the entire surface to melt. The candle will remember the shape of this burn and return to it each evening.</p><dl><div><dt>Burn time</dt><dd>{product.burn}</dd></div><div><dt>Wax</dt><dd>Coconut + soy</dd></div><div><dt>Wick</dt><dd>Lead-free cotton</dd></div><div><dt>Weight</dt><dd>220g / 7.8oz</dd></div></dl></motion.div></section>
 
     <section className="product-next"><p>Continue through the collection</p><div>{products.filter(({ slug }) => slug !== product.slug).map((item) => <a key={item.slug} href={`/products/${item.slug}`}><span>{item.number}</span>{item.name}<i>↗</i></a>)}</div></section>
-    <footer className="product-footer"><a href="/">Embera</a><p>© 2026 Candle Atelier</p></footer>
+    <footer className="product-footer"><a href="/">Embera</a><p>© 2026 Toqa ElQersh. All rights reserved.</p></footer>
   </main>
 }
