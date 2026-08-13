@@ -1844,8 +1844,11 @@ button, input, select, textarea { max-width: 100%; }
   .hero-brand { min-width: 0; gap: 0; }
   .hero-brand > span:first-child { font-size: clamp(20px, 6.2vw, 25px); letter-spacing: .16em; }
   .hero-brand > span:last-child { display: none; }
-  .hero-header .site-actions button { width: 34px; height: 34px; justify-content: center; gap: 0; overflow: hidden; padding: 0; font-size: 0; }
-  .hero-header .sound-mark { flex: none; }
+  .hero-header .site-actions button { width: 42px; height: 42px; justify-content: center; gap: 0; overflow: hidden; padding: 0; color: #f8eee5; font-size: 0; }
+  .hero-header .sound-mark { display: flex; height: 19px; flex: none; align-items: flex-end; gap: 3px; }
+  .hero-header .sound-mark i { width: 2px; height: 8px; background: currentColor; }
+  .hero-header .sound-mark i:nth-child(2) { height: 17px; }
+  .hero-header .sound-mark i:nth-child(3) { height: 12px; }
   .stage-frame { top: 48px; height: 63svh; object-position: 61% 58%; transform: scale(1.12); }
   .stage-frame:nth-child(9) { object-position: 64% 68%; transform: scale(1.42); }
   .hero-overlay { background: linear-gradient(180deg, rgb(9 5 4 / .08) 0%, transparent 42%, rgb(9 5 4 / .72) 60%, #090504 78%); }
